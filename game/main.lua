@@ -214,7 +214,7 @@ function love.draw()
 		local rx, ry = 4 + (biggest_x - 1) * (64 + 4), 4 + (biggest_y - 1) * (64 + 4) + 40
 		
 		love.graphics.setColor(255, 255, 255, 15)
-		love.graphics.circle("fill", rx + 64 / 2, ry + 64 / 2, 48 + math.cos(love.timer.getTime() * 2) * 8)
+		--love.graphics.circle("fill", rx + 64 / 2, ry + 64 / 2, 48 + math.cos(love.timer.getTime() * 2) * 8)
 	end
 
 	-- animations
